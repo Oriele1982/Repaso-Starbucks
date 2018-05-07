@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica" "Arial" sans-serif;
+}
+
+
+
+/* NAVBAR */
+
+.navbar_starbucks{
+	max-width: 100%;
+	border-top: 10px solid #0A6242;
+	background-color: #F7F7F7;
+	font-size: 12px;
+	padding: 40px;
+	margin: 0;
+}
+
+img.logo_starbucks{
+	width: 6%;
+	position: absolute;
+	bottom: 20px;
+}
+
+ul.navbar__navigation{
+	position: absolute;
+	right: 70px;
+	top: 70px;
+}
+
+a{
+	color: #000000;
+	font-weight: 400;
+}
+
+.icon-bar{
+	background-color: #655E5D;
+	color: #FFFFFF;
+}
+
+/* Jumbotron */
+
+.jumbotron__starbucks{
+	background-image: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	padding: 110px;
+	margin: 0;
+}
+
+.background_starbucks{
+	width: 55%;
+	background-color: rgba(0,0,0,0.8);
+	background-repeat: none;
+	color: #F7F7F7;
+	text-align: center;
+	padding: 60px 0 60px 0;
+	border-radius: 30px 30px;
+	position: relative;
+	left: 20%;
+}
+
+.glyphicon-star{
+	font-size: 30px;
+}
+
+.paragraph{
+	font-size: 20px;
+}
+
+.btn{
+	color: #F7F7F7;
+	border: 1px solid #FFFFFF;
+	border-radius: 30px;
+	padding: 10px 60px 10px 60px;
+	text-align: center;
+}
+
+.btn:hover{
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,0.8);
+	border-color: grey;
+}
+
+
+/* Jumbotron oferta */
+
+.jumbotron__starbucks_offer{
+	background-image: url(../images/stars2.png);
+	padding: 70px;
+	background-repeat: no-repeat;
+	
+}
+
+.offer{
+	width: 45%;
+	margin-left: 35%;
+}
+
+.glyphicon-thumbs-up{
+	font-size: 30px;
+}
+
+/* Jumbotron productos */
+
+.jumbotron__starbucks_products{
+	background-image: url(../images/beans.png);
+	padding: 90px;
+	background-repeat: no-repeat;
+}
+
+.products{
+	width: 45%;
+	margin-left: 38%;
+}
+
+.glyphicon-heart{
+	font-size: 30px;
+}
+
+/* Footer */
+
+.footer__starbucks{
+	background-color: #F7F7F7;
+	border-bottom: 10px solid #655E5D;
+	padding: 30px 0 10px 0;
+}
+
+ul.icon-footer li{
+	list-style: none;
+	list-style-position: center;
+	text-align: center;
+	padding: 5px;
+}
+
+.fa-facebook-f{
+	font-size: 30px;
+}
+
+.fa-twitter{
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.logo-footer{
+	width: 15%;
+}
